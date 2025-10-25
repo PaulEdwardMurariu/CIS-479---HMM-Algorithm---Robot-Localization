@@ -46,15 +46,17 @@ maze = [
 ```
 ---
 
-## 🎲 Probability Parameters
-###Parameter	               ###Description	                                      ###Value
-correct_obstacle	           Probability of correctly identifying an obstacle	    0.90
-correct_open_space	         Probability of correctly identifying open space	    0.95
-incorrect_obstacle	         Probability of misreading an obstacle	              0.05
-incorrect_open_space	       Probability of misreading open space	                0.10
-straight	                   Probability robot moves as intended	                0.75
-left	                       Probability of drifting left	                        0.15
-right	                       Probability of drifting right	                      0.10
+### 🎲 Probability Parameters
+
+| Parameter | Description | Value |
+|------------|-------------|-------|
+| `correct_obstacle` | Probability of correctly identifying an obstacle | 0.90 |
+| `correct_open_space` | Probability of correctly identifying open space | 0.95 |
+| `incorrect_obstacle` | Probability of misreading an obstacle | 0.05 |
+| `incorrect_open_space` | Probability of misreading open space | 0.10 |
+| `straight` | Probability robot moves as intended | 0.75 |
+| `left` | Probability of drifting left | 0.15 |
+| `right` | Probability of drifting right | 0.10 |
 
 ---
 
