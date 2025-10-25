@@ -149,11 +149,13 @@ Programmed by pmurariu and baughboy
 
 ---
 
-## 🧾 Files
-File	Description
-HMM_Localization.py	Python source code implementing HMM-based robot localization
-HMM Algorithm.pdf	Summary of algorithm structure and explanation
-HMM Localization Report.pdf	Full written report including analysis and component breakdown
+## 📄 Files
+
+| File | Description |
+|------|-------------|
+| `HMM_Localization.py` | Python source code implementing HMM-based robot localization |
+| `HMM Algorithm.pdf` | Summary of algorithm structure and explanation |
+| `HMM Localization Report.pdf` | Full written report including analysis and component breakdown |
 
 ---
 
