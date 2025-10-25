@@ -153,9 +153,9 @@ Programmed by pmurariu and baughboy
 
 | File | Description |
 |------|-------------|
-| [`HMM_Localization.py`](https://github.com/PaulEdwardMurariu/CIS-479---HMM-Algorithm---Robot-Localization/blob/main/HMM_Localization.py) | Python source code implementing HMM-based robot localization |
-| [`HMM Algorithm.pdf`](./HMM%20Algorithm.pdf) | Summary of algorithm structure and explanation |
-| [`HMM Localization Report.pdf`](./HMM%20Localization%20Report.pdf) | Full written report including analysis and component breakdown |
+| [`HMM Algorithm - Robot Localization.py`](HMM%20Algorithm%20-%20Robot%20Localization.py) | Python source code implementing HMM-based robot localization |
+| [`HMM Algorithm.pdf`](HMM%20Algorithm.pdf) | Summary of algorithm structure and explanation |
+| [`HMM Localization Report.pdf`](HMM%20Localization%20Report.pdf) | Full written report including analysis and component breakdown |
 
 ---
 
