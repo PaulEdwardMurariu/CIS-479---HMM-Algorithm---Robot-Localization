@@ -61,31 +61,26 @@ maze = [
 ---
 
 ## ⚙️ Key Functions
-transition(curr_state, action)
 
-Calculates the next grid cell after moving in the direction action (0 = W, 1 = N, 2 = E, 3 = S).
+#### `transition(curr_state, action)`
+Calculates the next grid cell after moving in the direction `action` (`0 = W`, `1 = N`, `2 = E`, `3 = S`).  
 If movement would hit a wall or leave the grid, the robot stays in place.
 
-transitional_prob(state, action)
-
-Returns a set of possible new states and their probabilities (straight, left, right).
+#### `transitional_prob(state, action)`
+Returns a set of possible new states and their probabilities (straight, left, right).  
 Accounts for drift and directional wrapping using modulo arithmetic.
 
-moving(move_direction)
-
+#### `moving(move_direction)`
 Updates the probability distribution after motion, applying drift probabilities to simulate uncertainty.
 
-sensing(row, col)
+#### `sensing(row, col)`
+Simulates a robot’s sensor by returning the perceived environment around a given cell (`West, North, East, South`).
 
-Simulates a robot’s sensor by returning the perceived environment around a given cell (West, North, East, South).
-
-filtering(visual, next_action)
-
-Implements the evidence correction (sensor update) step.
+#### `filtering(visual, next_action)`
+Implements the evidence correction (sensor update) step.  
 Compares expected sensor readings with observed ones and updates the probability distribution accordingly.
 
-maze_print(maze, prob_maze)
-
+#### `maze_print(maze, prob_maze)`
 Displays the maze layout and the robot’s probability of being in each cell as percentages.
 
 ---
