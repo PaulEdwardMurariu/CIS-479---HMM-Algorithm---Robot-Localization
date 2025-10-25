@@ -12,7 +12,7 @@ The algorithm estimates location probabilities through **recursive Bayesian filt
 **Authors:** Paul Murariu and Dominic Baughman  
 **Date:** November 5 2023  
 **Language:** Python 3  
-**Course:** CIS 479 — Artificial Intelligence  
+**Course:** CIS 479 — Intro to Artificial Intelligence  
 
 ---
 
