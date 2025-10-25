@@ -85,22 +85,23 @@ Displays the maze layout and the robot’s probability of being in each cell as 
 
 ---
 
-## 🔄 Execution Flow
+## 🔁 Execution Flow
 
-The program alternates between filtering (sensor updates) and prediction (movement updates):
+The program alternates between **filtering** (sensor updates) and **prediction** (movement updates):
 
+```python
 actions_list = [
- ([0, 1, 0, 0], None),  # Sense
- ([0, 0, 0, 0], 'E'),   # Move East
- ([0, 0, 0, 0], None),  # Sense
- ([0, 0, 0, 0], 'N'),   # Move North
- ([1, 0, 0, 1], None),  # Sense
- ([0, 0, 0, 0], 'N'),   # Move North
- ([0, 1, 0, 0], None),  # Sense
- ([0, 0, 0, 0], 'W'),   # Move West
- ([0, 1, 0, 1], None)   # Final Sense
+    ([0, 1, 0, 0], None),   # Sense
+    ([0, 0, 0, 0], 'E'),    # Move East
+    ([0, 0, 0, 0], None),   # Sense
+    ([0, 0, 0, 0], 'N'),    # Move North
+    ([1, 0, 0, 1], None),   # Sense
+    ([0, 0, 0, 0], 'N'),    # Move North
+    ([0, 1, 0, 0], None),   # Sense
+    ([0, 0, 0, 0], 'W'),    # Move West
+    ([0, 1, 0, 1], None)    # Final Sense
 ]
-
+```
 
 Each iteration updates the prob_maze to reflect the most likely robot position after movement or sensing.
 
