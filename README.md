@@ -107,28 +107,30 @@ Each iteration updates the prob_maze to reflect the most likely robot position a
 
 ---
 
-## 📊 Algorithm Components (From Report)
-Transitional Probability
+## 📘 Algorithm Components (From Report)
 
-Describes the movement uncertainty by combining straight, left, and right drift probabilities.
+### 🔄 Transitional Probability
+Describes the **movement uncertainty** by combining straight, left, and right drift probabilities.  
 If movement hits an obstacle or boundary, the robot remains in its current position.
 
-Evidence (Conditional Probability)
+---
 
+### 🧩 Evidence (Conditional Probability)
 Compares observed sensor readings with expected maze readings:
 
-Correct readings → boost probability (0.9 or 0.95)
+- ✅ **Correct readings** → boost probability *(0.9 or 0.95)*
+- ❌ **Incorrect readings** → penalize probability *(0.05 or 0.10)*
 
-Incorrect readings → penalize probability (0.05 or 0.10)
+---
 
-Filtering
+### 🧮 Filtering
+Applies sensor updates to refine the robot’s belief of its location.  
+Normalization ensures the probabilities in the grid always sum to **1**.
 
-Applies sensor updates to refine the robot’s belief of its location.
-Normalization ensures the probabilities in the grid always sum to 1.
+---
 
-Prediction
-
-Computes new position probabilities using motion commands, drift, and the transition model.
+### 🚀 Prediction
+Computes new position probabilities using **motion commands**, **drift**, and the **transition model**.
 
 ---
 
