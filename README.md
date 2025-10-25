@@ -134,15 +134,18 @@ Computes new position probabilities using **motion commands**, **drift**, and th
 
 ---
 
-## 💻 Output Example
+## 🖥️ Output Example
 
-At runtime, the program prints the initial probability map and updates it after each sensing or motion step:
+At runtime, the program prints the initial probability map and updates it after each sensing or motion step.
 
+```text
 Initial Probabilities
-(0,0): 2.50%  (0,1): 2.50%  ...  
-(1,0): 2.50%  (1,1): 0.00%  ...
+(0,0): 2.50%   (0,1): 2.50%   (0,2): 2.50%   (0,3): 2.50% ...
+(1,0): 2.50%   (1,1): 0.00%   (1,2): 2.50%   (1,3): 2.50% ...
+(2,0): 2.50%   (2,1): 2.50%   (2,2): 2.50%   (2,3): 2.50% ...
 ...
 Programmed by pmurariu and baughboy
+```
 
 ---
 
